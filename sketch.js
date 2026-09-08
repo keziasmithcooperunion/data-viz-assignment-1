@@ -142,6 +142,7 @@ function draw() {
   fillDot(413, 260, m2, 9); // se
 
   // colon 2
+  fill(255)
   circle(457.5, 165, 10)
   circle(457.5, 245, 10)
   
