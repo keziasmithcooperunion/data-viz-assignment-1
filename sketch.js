@@ -3,7 +3,7 @@
 // Assignment 1: "Off the Clock"
 
 function setup() {
-  createCanvas(1000, 400);
+  createCanvas(700, 400);
   lastMinute = minute();
 }
 
