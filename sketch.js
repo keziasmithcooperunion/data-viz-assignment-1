@@ -185,7 +185,7 @@ function draw() {
   // Minute Log
   currentMinute = minute();
   if (currentMinute !== lastMinute) {
-    console.log(minute());
+    console.log("The current minute is:", minute());
   // to avoid repetition in log
     lastMinute = currentMinute;
   }
