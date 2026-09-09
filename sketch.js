@@ -1,6 +1,7 @@
 // Kezia Smith
 // CS-331: Data Visualization
 // Assignment 1: "Off the Clock"
+// Six Dominoes
 
 function setup() {
   createCanvas(700, 400);
