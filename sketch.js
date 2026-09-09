@@ -41,7 +41,7 @@ function draw() {
   let mm = nf(minute(), 2);
   let ss = nf(second(), 2);
 
-  // retrieve first and second digit of HH:MM:SS
+  // retrieve first and second digit of HH:MM:SS, assign to each domino for dot fill
 
   let h1 = int(hh[0]);
   let h2 = int(hh[1]); 
@@ -182,10 +182,10 @@ function draw() {
   fillDot(628, 230, s2, 7); // ne
   fillDot(628, 260, s2, 9); // se
   
-  // Minute Log
+  // Minute Console Log
   currentMinute = minute();
   if (currentMinute !== lastMinute) {
-    console.log("The current minute is:", minute());
+    console.log("Current minute:", minute());
   // to avoid repetition in log
     lastMinute = currentMinute;
   }
